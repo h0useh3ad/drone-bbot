@@ -119,7 +119,7 @@ func main() {
 		var entry map[string]interface{}
 		err = json.Unmarshal([]byte(line), &entry)
 		if err != nil {
-			log.Fatalf("Fatal: Could not parse BBot JSON. Error %s", err.Error())
+			log.Fatalf("Fatal: Could not parse bbot JSON. Error %s", err.Error())
 		}
 
 		if entry["type"] == "DNS_NAME" {
