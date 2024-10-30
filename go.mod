@@ -1,4 +1,4 @@
-module drone-bbot
+module github.com/h0useh3ad/drone-bbot
 
 go 1.23.2
 
