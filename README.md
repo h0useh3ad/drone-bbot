@@ -1,5 +1,5 @@
 # drone-bbot
-Pareses a [bbot](https://github.com/blacklanternsecurity/bbot) JSON (output.json) and imports into a lair project, extracing DNS name and IP.
+Parses a [bbot](https://github.com/blacklanternsecurity/bbot) JSON (output.json) and imports into a lair project, extracing DNS name and IP.
 
 ## Install
 ```
